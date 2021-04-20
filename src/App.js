@@ -39,6 +39,9 @@ const App = () => {
           <PrivateRoute path="/dashBoard">
             <DashBoard></DashBoard>
           </PrivateRoute>
+          <Route path="/review">
+            <Review></Review>
+          </Route>
           <Route path="/booking">
             <YourOrder></YourOrder>
           </Route>

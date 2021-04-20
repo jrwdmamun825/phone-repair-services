@@ -37,7 +37,7 @@ const SideBar = () => {
                     </Link>
                 </li>
                 <li className="p-3">
-                    <Link to="/dashBoard/review" className="text-white text-decoration-none">
+                    <Link to="/review" className="text-white text-decoration-none">
                         <FontAwesomeIcon icon={faStar} /> <span className="ms-2">Review</span>
                     </Link>
                 </li>
