@@ -26,7 +26,7 @@ const Contact = () => {
                         </div>
                         <div className="form-group">
                         <label  class="form-label">message</label>
-                        <input  type="text" className="form-control mb-4 message-box w-75" placeholder="your name"/>
+                        <textarea className="form-control w-75 h-75" id="" cols="30" rows="10" placeholder="Description *"></textarea>
                         </div>
                         <button className="btn btn-brand">send meassege</button>
                     </form>

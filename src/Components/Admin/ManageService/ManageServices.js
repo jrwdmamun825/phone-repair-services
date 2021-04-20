@@ -6,7 +6,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons'
 const ManageServices = () => {
     const [serviceList, setServiceList] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5050/services')
+        fetch('https://sheltered-citadel-15796.herokuapp.com')
             .then(res => res.json())
             .then(data => {
                 setServiceList(data)
