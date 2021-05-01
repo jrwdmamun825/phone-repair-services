@@ -1,14 +1,16 @@
 PHONE REPAIR SERVICE
 
-1.data load from mongodb database
+1.specific user order & show user order details
 
 
-2.specific user order , details & payment info
+2.using firebase authentication method 
 
-3.using firebase authentication method
+3.separate user and admin dashboard
+
+4.admin can add new service and delete service
 
 
-4.using spinner method when data load from mongodb
+5.admin can control dashboard
 
  Server code: https://github.com/jrwdmamun825/book-stores-server
 
